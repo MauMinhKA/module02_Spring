@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Product</title>
+<style>
+    body{
+        width: 50%;
+        margin-left: 25%;
+    }
+    th{
+        text-align: left;
+    }
+    fieldset{
+        border-radius: 8px;
+        border-bottom-color: #ff0500;
+        border-top-color: #061022;
+        border-right-color: #00f213;
+        border-left-color: #2b52f2;
+    }
+    legend {
+        border-radius: 5px;
+        background-color: #ff0500;
+        color: white;
+        padding: 5px 10px;
+    }
+</style>
+</head>
+<body>
+<h3 style="color: chartreuse">Thông tin sản phẩm</h3>
+<p>
+    <a th:href="@{/}">
+        Back to Product list<hr>
+    </a>
+</p>
+<fieldset>
+    <p type="hidden" th:field="${product.id}">
+        <legend>Thông Tin</legend>
+    <table class="table">
+        <tr>
+            <th style="color: green">Tên sản phẩm: </th>
+            <th  th:text="${product.getName()}"></th>
+        </tr>
+        <tr>
+            <th style="color: green">Giá SP: </th>
+            <th th:text="${product.getPrice()}"></th>
+        </tr>
+        <tr>
+            <th style="color: green">Mô tả: </th>
+            <th th:text="${product.description}"></th>
+        </tr>
+        <tr>
+            <th style="color: green">Tình trạng: </th>
+            <th th:text="${product.status}"></th>
+        </tr>
+        <tr>
+            <th style="color: green">Nhà sản xuất: </th>
+            <th th:text="${product.producer}"></th>
+        </tr>
+</fieldset>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+</html>
