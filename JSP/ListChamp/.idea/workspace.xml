@@ -6,7 +6,11 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6bcef8c-ba44-454c-9490-50ed32754d94" name="Default Changelist" comment="" />
+    <list default="true" id="b6bcef8c-ba44-454c-9490-50ed32754d94" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springDB/DemoThymeleaf/src/main/java/com/codygym/demothymeleaf/controllers/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../springDB/DemoThymeleaf/src/main/java/com/codygym/demothymeleaf/controllers/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springDB/DemoThymeleaf/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../../springDB/DemoThymeleaf/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="ListChamp/invalid/Web" />
+    </ignored-facets>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -28,16 +40,17 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1d2junUbmOsPtaN31oNY0g4bPV4" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../springDB/DemoThymeleaf" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -47,7 +60,7 @@
     <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="gradle.compiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -128,23 +141,6 @@
       </method>
     </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -166,10 +162,11 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591632866146">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592325685700">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591632866146" />
+    <state x="2334" y="174" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592325685700" />
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1591630504033">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -178,11 +175,12 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="577" y="36" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591631112518" />
-    <state x="600" y="212" key="FileChooserDialogImpl" timestamp="1591711745944">
+    <state x="600" y="212" key="FileChooserDialogImpl" timestamp="1592357641966">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="635" y="229" key="FileChooserDialogImpl/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591631847318" />
-    <state x="600" y="212" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1591711745944" />
+    <state x="600" y="212" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592326023884" />
+    <state x="600" y="212" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1592357641966" />
     <state width="1322" height="268" key="GridCell.Tab.0.bottom" timestamp="1591635152630">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -231,9 +229,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1322" height="268" key="GridCell.Tab.2.right/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591635152631" />
-    <state x="440" y="94" key="SettingsEditor" timestamp="1591632434097">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2295" y="230" width="1475" height="710" key="SettingsEditor" timestamp="1592326157210">
+      <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="440" y="94" key="SettingsEditor/-1920.0.1536.832/0.0.1920.1040@0.0.1920.1040" timestamp="1591632434097" />
+    <state x="2295" y="230" width="1475" height="710" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@0.0.1536.824" timestamp="1592326157210" />
+    <state x="2360" y="94" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1592325842498" />
   </component>
 </project>

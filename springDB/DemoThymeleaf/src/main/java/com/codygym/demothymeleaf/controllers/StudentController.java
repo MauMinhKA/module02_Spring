@@ -21,34 +21,35 @@ public class StudentController {
     StudentService studentService;
 
     @GetMapping("/")
-    public ModelAndView getHomeStudent(@RequestParam(name = "search", required = false) String search, @PageableDefault(value = 5) Pageable pageable){
+    public ModelAndView getHomeStudent(@RequestParam(name = "search", required = false) String search,
+                                       @PageableDefault(value = 5) Pageable pageable) {
         ModelAndView modelAndView = new ModelAndView("student/index");
-        if (search != null){
+        if (search != null) {
             Page<Student> studentList = studentService.findAllStudentByName(search, pageable);
-            modelAndView.addObject("students",studentList );
-        }else {
+            modelAndView.addObject("students", studentList);
+        } else {
             modelAndView.addObject("students", studentService.findAllStudent(pageable));
         }
         return modelAndView;
     }
 
     @GetMapping("/student/delete/{id}")
-    public String deleteStudent(@PathVariable Integer id, RedirectAttributes redirectAttributes){
+    public String deleteStudent(@PathVariable Integer id, RedirectAttributes redirectAttributes) {
         redirectAttributes.addFlashAttribute("message", "Delete Successful!!");
         studentService.deleteStudentById(id);
         return "redirect:/";
     }
 
     @GetMapping("/student/edit/{id}")
-    public ModelAndView getEditPage(@PathVariable Integer id){
+    public ModelAndView getEditPage(@PathVariable Integer id) {
         return new ModelAndView("student/edit", "student", studentService.getStudentById(id));
     }
 
     @PostMapping("/student/edit")
     public String editStudent(@ModelAttribute Student student
-    ,RedirectAttributes redirectAttributes
-    ){
-        redirectAttributes.addFlashAttribute("message","Edit successful!!");
+            , RedirectAttributes redirectAttributes
+    ) {
+        redirectAttributes.addFlashAttribute("message", "Edit successful!!");
         studentService.saveStudent(student);
         return "redirect:/";
     }
